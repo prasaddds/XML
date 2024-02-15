@@ -1,36 +1,24 @@
-/* style.css */
-h1 {
-    color: blue;
-}
-
-.patient {
+/* Apply styles to the hospital element */
+hospital {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Apply styles to the patient elements */
+  patient {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     padding: 10px;
-    border-radius: 5px;
-}
-
-.patient p {
-    margin: 5px 0;
-}
-
-.id {
+  }
+  
+  /* Apply styles to the id, name, age, gender, and diagnosis elements */
+  id, name, age, gender, diagnosis {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Apply specific styles to the diagnosis element */
+  diagnosis {
     font-weight: bold;
-}
-
-.name {
-    font-style: italic;
-}
-
-.age {
-    color: #555;
-}
-
-.gender {
-    text-transform: uppercase;
-}
-
-.diagnosis {
-    font-weight: bold;
-}
-
+    color: red;
+  }
+  
